@@ -28,7 +28,7 @@ def __requests__():
         socket = socket.gethostbyname(target)
         print(f"\n[+] ~ Your Ip Target Is {socket}")
         time.sleep(2)
-        r = requests.git("https://who.is/whois-ip/ip-address/" + socket)
+        r = requests.git("https://who.is/whois-ip/ip-address/" + socket).text
         try:
             print("<pre>")
         except:
