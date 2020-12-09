@@ -26,7 +26,7 @@ def __requests__():
                 pass
         time.sleep(2)
         socket = socket.gethostbyname(target)
-        print(Fore.BLUE + "\n[" + Fore.RED + "+" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.GREEN + "Your Ip Target : " + socket)
+        print(f"\n[+] ~ Your Ip Target Is {socket}")
         time.sleep(2)
         r = requests.git("https://who.is/whois-ip/ip-address/" + socket)
         try:
