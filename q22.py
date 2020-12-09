@@ -15,7 +15,7 @@ def __requests__():
         print(Fore.YELLOW + "Hello Welcome ;) ")
         time.sleep(2)
         target = input(Fore.BLUE +"\n[" + Fore.RED + "*" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.YELLOW + "Enter Your Address Target" + Fore.GREEN + " ==>  ")
-        if target == "" Or None:
+        if target == "" or None:
             try:
                 time.sleep(2)
                 print(Fore.BLUE + "\n[" + Fore.YELLOW + "!" + Fore.BLUE + "]" + Fore.YELLOW + " ~ " + Fore.RED + "Error" + Fore.BLUE  + " : " + Fore.RED + "Your Target Is Not Found ;(")
