@@ -29,4 +29,9 @@ def __requests__():
         time.sleep(2)
         r = requests.git("https://who.is/whois-ip/ip-address/" + socket)
         try:
-            print(<pre>)
+            print("<pre>")
+        except:
+            pass
+    except:
+        pass
+__requests__()    
